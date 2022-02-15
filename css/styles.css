@@ -1,0 +1,239 @@
+body {
+    background-color: #202020;
+    color: rgb(206, 206, 206);
+    font-family: "Oswald" !important;
+    font-weight: lighter !important;
+}
+
+.bright-green {
+    color: #26ff00 !important;
+    font-weight: lighter;
+}
+
+.reminder-front {
+    background-color: #3b3b3b;
+    cursor: pointer;
+    color: rgb(206, 206, 206) !important;
+}
+
+.reminder {
+    background-color: #3b3b3b;
+    cursor: pointer;
+    color: rgb(206, 206, 206) !important;
+}
+
+.reminder:hover {
+    background-color: #353535;
+}
+
+.element {
+    background-color: #3b3b3b;
+    cursor: pointer;
+    color: rgb(206, 206, 206) !important;
+}
+
+.element:hover {
+    background-color: #353535;
+}
+
+.card-container {
+    border-radius: 0.7em;
+    padding: 2em;
+    background-color: #2b2b2b;
+    min-height: 30em;
+}
+
+.bg-gray {
+    background-color: rgba(245, 245, 245, 0.144) !important;
+    border: none !important;
+    font-weight: lighter !important;
+}
+
+.op {
+    font-weight: lighter !important;
+    background-color: rgb(65, 64, 64) !important;
+}
+
+.card-body {
+    padding: 0.5em !important;
+    padding-left: 1em !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+.form-control {
+    color: rgb(206, 206, 206) !important;
+}
+
+select option {
+    background-color: rgba(245, 245, 245, 0.144) !important;
+}
+
+.selector {
+    margin-left: 24em;
+}
+
+.hr {
+    margin-top: 0em;
+}
+
+.w-2 {
+    width: 4em;
+    margin: 0.1em;
+}
+
+.F {
+    padding: 1em;
+}
+
+.T {
+    background-color: rgba(255, 99, 71, 0.767) !important;
+    color: rgb(29, 23, 23) !important;
+}
+
+.N {
+    padding: 1em;
+    background-color: rgba(70, 2, 2, 0.795) !important;
+}
+
+.Re {
+    background-color: rgba(71, 197, 255, 0.699) !important;
+    color: rgb(29, 23, 23) !important;
+}
+
+.B {
+    background-color: rgb(230, 104, 0) !important;
+    color: rgb(41, 41, 41) !important;
+}
+
+.A {
+    background-color: rgba(243, 255, 71, 0.801) !important;
+    color: rgb(29, 23, 23) !important;
+}
+
+.form-control {
+    border: 2.5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.card-text {
+    font-size: large;
+    font-weight: bold;
+}
+
+.c {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #ffffff27;
+}
+
+.col-md-2 {
+    font-weight: lighter !important;
+    border-right: solid 1.8px #26ff00;
+    min-height: 20em;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(245, 245, 245, 0.144) !important;
+}
+
+.categoria {
+    background-color: transparent;
+}
+
+#deletediv {
+    margin-left: 10em;
+    cursor: pointer;
+}
+
+#deletebutton {
+    margin-left: 10em;
+    cursor: pointer;
+}
+
+.welcome {
+    animation: animation-w 2s ease-in-out;
+}
+
+.title {
+    margin-bottom: 2em !important;
+}
+
+@keyframes animation-w {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.app-name {
+    animation: animation-app-name 2s ease-in-out;
+}
+
+@keyframes animation-app-name {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 50%;
+    }
+}
+
+.badge-front {
+    background-color: seashell !important;
+    margin-left: 2em;
+}
+
+.ml-10 {
+    margin-left: 10em !important;
+}
+
+.rounded-pill {
+    padding: 0.5em;
+}
+
+.blink {
+    animation: animation-app-name 3s ease-in-out infinite;
+}
+
+@keyframes animation-app-name {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 50%;
+    }
+}
+
+.R5 {
+    animation: animation-5 2s ease-in-out;
+}
+
+@keyframes animation-5 {
+    from {
+        transform: translateX(50px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.goal-type {
+    animation: animation-fall 2s ease-in-out;
+}
+
+@keyframes animation-fall {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
